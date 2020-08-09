@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Github</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+
+    <div id="API" class="Geral">
+        <div class="Um">
+            <div class="labelinput">
+                <label>Usuário Github:</label>
+                <input id="user_nome" type="text" placeholder="Insira Usuário">
+            </div>
+            <button id="user" onclick="usuario()">Enviar</button>
+        </div>
+
+        <div class="Dois">
+        <h1 id="titulo"></h1>
+        <img id="image">
+        <h2 id="nome"></h2>
+        <a id="enlace"></a>
+        </div>
+    </div>
+    
+    <script src="APIrest.js"></script>
+    <script>carregando()</script>
+</body>
+</html>
